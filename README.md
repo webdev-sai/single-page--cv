@@ -2,6 +2,8 @@
 
 This project is a simple single-page CV built using HTML and CSS. It showcases the structure and styling of a professional resume, making it accessible and visually appealing for users.
 
+`project URL:` https://roadmap.sh/projects/single-page-cv
+
 ## Features
 
 - **Personal Information**: Displays the name, role, contact information (address, phone number, email), and a link to the GitHub profile.
