@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/webdev-sai/single-page--cv",
+  "scripts": {
+    "build": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gundekari Saikumar</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        width: 70%;
+        margin: auto;
+        border: 1px solid black;
+      }
+      header { 
+        border-bottom: 1px solid black;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      a {
+        display: inline-block;
+        padding: 8px;
+      }
+      .hero-section {
+        height: 200px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        }
+        .main:nth-child(1), .main:nth-child(2){
+          border-right: 1px solid black;
+        }
+      .middle-section {
+        display: flex;
+        height: 300px;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        div {
+          flex-grow: 1;
+        }
+      }
+      
+      .sec {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        .pro {
+          flex-grow: 1;
+          border-bottom: 1px solid black;
+          padding-left: 6px;
+        }
+        .pro:nth-child(1){
+          padding-bottom: 2rem;
+        }
+        .pro1 {
+          flex-grow: 5;
+          padding-left: 6px;
+        }
+        .pro0 {
+          flex-grow: 5;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      #md {
+        justify-content: center;
+        align-items: center;
+      }
+      .mid{
+        display: flex;
+        flex-direction: column;
+        .we1{
+          /* border-style: ridge; */
+          flex-grow: 1;
+          padding-left: 10px;
+        }
+        .we2{
+          /* border-style: ridge; */
+          justify-self: flex-end;
+          padding-left: 10px;
+        }
+      }
+      article{
+        height: 400px;
+        display:flex; 
+        flex-direction: column;       
+        justify-content: space-between;
+        padding: 16px 0;
+        }
+              #al{
+            padding-left: 10px;
+            display: flex;
+            
+          }
+          .fe{
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: stretch;
+            gap: 30px;
+          }
+        .rev{
+          border-style: ridge;
+          height: 100%;
+          width: 240px;
+          padding: .5rem;
+          border-radius: 40px;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>Gundekari Saikumar</div>
+      <nav>
+        <a href="">Home</a>
+        /
+        <a href="">Projects</a>
+        /
+        <a href="">Articles</a>
+
+        <a href="">contacts</a>
+      </nav>
+    </header>
+    <div class="hero-section">
+      <h1 class="title">Front End Developer</h1>
+      <p>G. sai Kumar</p>
+    </div>
+    <section class="middle-section">
+      <div class="main">
+        <div class="sec">
+          <div class="pro">
+            <h3>Projects</h3>
+            <p >Html is only Profile</p>
+          </div>
+          <div class="pro">calculator</div>
+          <div class="pro">Quiz App</div>
+          <div class="pro">count Down Timer</div>
+          <div class="pro1">Product upcomming Page</div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="mid">
+          <div class="we1">
+            <br>
+            <h3>work experience</h3><br /> raodmap.sh<br />Solved all Html Projects<br>
+            <a href="">view my Profile</a>
+          </div>
+          <hr />
+          <div class="we2">
+            open source work<br><br>
+            contined to 50 open source projects.<br> made my own projects with 200 git hub stars<br>
+            <a href="">view my github Profile</a>
+          </div>
+          </div>
+        </div>
+      <div class="main">
+        <br>
+        <h3>Education</h3>
+        <br>
+        Graduated with 3.76 out of 4<br> 
+        CGPA Won Acme Hackathon Organized 30 Sections. 
+        <br><br>
+        Couses I Took:
+        <br><br>
+        <pre>
+        - Object oriented programming
+        - Data structures and Algorithms
+        - web engineering
+        - artificial intelligence
+        - Human Computer interation
+        - Computer Graphics
+        - data base management system 
+        - distributed data base management sysytem
+      </pre>
+      </div>
+    </section>
+    <article>
+      <div id="al" "><h3>Review from my Teachers</h3></div>
+      <div class="fe">
+      <div class="rev"><br><br><center> jone doe was a brilliant student; Always stud out with is Assignments<br><br>
+        <pre style="opacity: 0.5;">jane doe<br> Assistant Professor</pre></center>
+      </div>
+      <div class="rev"><br><br><center> jone doe was a brilliant student; Always stud out with is Assignments<br><br>
+        <pre style="opacity: 0.5;">jane doe <br> Assistant Professor</pre></center>
+      </div>
+      <div class="rev"><br><br><center> jone doe was a brilliant student; Always stud out with is Assignments<br><br>
+        <pre style="opacity: 0.5;">jane doe <br> Assistant Professor</pre></center>
+      </div>
+      </div>
+      <div>
+        <h3 style="text-align:center;">All rights reserved 2025</h3> 
+      </div>       
+    </article>
+  </body>
+</html>
